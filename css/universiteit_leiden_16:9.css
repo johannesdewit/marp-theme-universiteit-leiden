@@ -3,11 +3,17 @@
 
 section {
   font-family: minion-pro, Georgia, serif;
+  font-style: normal;
+  font-weight: 400;
   color: #0C2577;
+  background-color: #fff;
   width: 1280px;
   height: 720px;
   font-size: 18pt;
   padding: 40px;
+  display: grid;
+  grid-template: "header" 15%
+                 "body" 82.5%;
 }
 
 footer {
@@ -56,7 +62,7 @@ p {
 
 img {
   max-width: 100%;
-  max-height: 450px;
+  max-height: 100%;
   width: auto;
 }
 
@@ -65,6 +71,8 @@ section.title-slide {
   background-color: #0C2577;
   color: white;
   padding: 0px;
+  display: block;
+  grid-template: initial;
 }
 
 section.title-slide h1 {
@@ -76,7 +84,6 @@ section.title-slide h1 {
 }
 
 section.title-slide p {
-  grid-area: none;
   font-size: 24pt;
   background-color: #8592BC;
   position: absolute;
@@ -88,9 +95,10 @@ section.title-slide p {
 }
 
 section.title-slide img {
-  grid-area: none;
   background-color: #fff;
   position: absolute;
+  max-height: initial;
+  max-width: initial;
   height: 100%;
   width: 66.7mm;
   margin: 0;
@@ -101,6 +109,11 @@ section.title-slide img {
 }
 
 /* toc styling */
+section.toc {
+  display: block;
+  grid-template: initial;
+}
+
 section.toc p {
   max-width: 70%;
   font-size: 24pt;
@@ -125,7 +138,7 @@ section.toc img {
   margin-right: 40px;
   top: 22%;
   max-width: 25%;
-  max-height: 450px;
+  max-height: 67.5%;
   width: auto;
 }
 
@@ -146,7 +159,7 @@ section.t75-i25 p > img {
   position: fixed;
   right: 0px;
   margin-right: 40px;
-  max-height: 450px;
+  max-height: 67.5%;
   max-width: 25%;
   width: auto;
 }
@@ -161,7 +174,7 @@ section.t50-i50 p > img {
   position: fixed;
   right: 0px;
   margin-right: 40px;
-  max-height: 450px;
+  max-height: 67.5%;
   max-width: 50%;
   width: auto;
 }
@@ -176,7 +189,7 @@ section.t25-i75 p > img {
   position: fixed;
   right: 0px;
   margin-right: 40px;
-  max-height: 450px;
+  max-height: 67.5%;
   max-width: 75%;
   width: auto;
 }

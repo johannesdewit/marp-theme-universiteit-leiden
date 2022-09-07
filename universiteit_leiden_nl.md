@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: universiteit_leiden_16:9
+theme: universiteit_leiden_4:3
 paginate: true
 footer: Universiteit Leiden. Bij ons leer je de wereld kennen
 ---
@@ -24,7 +24,7 @@ Naam spreker | Plaats
     - sectie 2b
 3. Hoofdstuk
 
-![example](https://fakeimg.pl/300x450/e7e9f2/?text=afbeelding&font=bebas)
+![example](https://fakeimg.pl/600x1200/e7e9f2/?text=afbeelding&font=bebas)
 
 ---
 ## Alleen tekst
@@ -36,7 +36,7 @@ Occaecat deserunt fugiat laboris occaecat enim ex consectetur exercitation do ip
 ## Tekst dominant en beeld 75%/25%
 Cupidatat incididunt aliqua Lorem laboris ex laboris esse aute ut dolore laborum. Reprehenderit excepteur dolor duis dolor. Adipisicing ea cillum elit commodo adipisicing non quis labore sunt nulla reprehenderit elit. Cupidatat velit commodo consequat aute nisi laboris aliqua est culpa aute consequat commodo. Laboris in eiusmod laboris occaecat ex pariatur nisi est irure commodo anim. Occaecat occaecat sint ipsum Lorem pariatur velit nostrud ullamco aliqua duis pariatur adipisicing excepteur.
 
-![example](https://fakeimg.pl/300x450/e7e9f2/?text=afbeelding&font=bebas)
+![example](https://fakeimg.pl/300x600/e7e9f2/?text=afbeelding&font=bebas)
 
 ---
 ## Tekst en beeld gelijk; 50%/50%
@@ -54,7 +54,7 @@ Proident consectetur labore culpa magna irure et aliqua nostrud reprehenderit. N
 
 ---
 ## Alleen beeld
-![example](https://fakeimg.pl/1280x450/e7e9f2/?text=afbeelding&font=bebas)
+![example](https://fakeimg.pl/1280x720/e7e9f2/?text=afbeelding&font=bebas)
 
 ---
 <!-- _class: title-slide -->

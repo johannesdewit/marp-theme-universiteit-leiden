@@ -1,0 +1,9 @@
+/* @theme universiteit_leiden_4:3 */
+/* based on the .potx hosted here: https://huisstijl.leidenuniv.nl/nl/digitale-uitingen/powerpoint/ */
+
+@import-theme 'universiteit_leiden_16:9';
+
+section {
+  width: 1280px;
+  height: 940px;
+}

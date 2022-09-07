@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: universiteit_leiden_16:9_nl
+theme: universiteit_leiden_16:9
 paginate: true
 footer: Universiteit Leiden. Bij ons leer je de wereld kennen
 ---
@@ -11,7 +11,7 @@ footer: Universiteit Leiden. Bij ons leer je de wereld kennen
 
 Naam spreker | Plaats
 
-![h:37mm w:66.7mm](UL_kleur.svg)
+![h:37mm w:66.7mm](https://huisstijl.leidenuniv.nl/assets/files/ul-algemeen-rgb-kleur.png)
 
 ---
 <!-- _class: toc -->
@@ -62,4 +62,4 @@ Proident consectetur labore culpa magna irure et aliqua nostrud reprehenderit. N
 
 # Titel afsluiting
 
-![h:37mm w:66.7mm](UL_kleur.svg)
+![h:37mm w:66.7mm](https://huisstijl.leidenuniv.nl/assets/files/ul-algemeen-rgb-kleur.png)

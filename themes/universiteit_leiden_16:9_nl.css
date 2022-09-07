@@ -1,0 +1,182 @@
+/* @theme universiteit_leiden_16:9_nl */
+/* based on the .potx hosted here: https://huisstijl.leidenuniv.nl/nl/digitale-uitingen/powerpoint/ */
+
+section {
+  font-family: minion-pro, Georgia, serif;
+  color: #0C2577;
+  width: 1280px;
+  height: 720px;
+  font-size: 18pt;
+  padding: 40px;
+}
+
+footer {
+  position: absolute;
+  background-color: #0C2577;
+  color: #fff;
+  font-size: 15pt;
+  height: 13.1mm;
+  line-height: 13.1mm;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding-left: 54.5mm;
+}
+
+/* Styling page number */
+section::after {
+  font-size: 15pt;
+  color: #fff;
+  height: 13.1mm;
+  width: 13.1mm;
+  text-align: center;
+  line-height: 13.1mm;
+  margin: 0;
+  padding: 0;
+}
+  
+h1 {
+  font-size: 54pt;
+  color: #0C2577;
+  padding-top: 40px;
+} 
+
+h2 {
+  font-size: 40pt;
+  grid-area: header;
+}
+
+p {
+  grid-area: body;
+  position: relative;
+  left: 0;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 450px;
+  width: auto;
+}
+
+/* title-slide styling */
+section.title-slide {
+  background-color: #0C2577;
+  color: white;
+  padding: 0px;
+}
+
+section.title-slide h1 {
+  color: white;
+  font-size: 54pt;
+  padding-left: 54.5mm;
+  width: 100%;
+  line-height: 300px;
+}
+
+section.title-slide p {
+  grid-area: none;
+  font-size: 24pt;
+  background-color: #8592BC;
+  position: absolute;
+  line-height: 24mm;
+  width: 100%;
+  padding: 0;
+  padding-left: 54.5mm;
+  bottom: 41mm;
+}
+
+section.title-slide img {
+  grid-area: none;
+  background-color: #fff;
+  position: absolute;
+  height: 100%;
+  width: 66.7mm;
+  margin: 0;
+  margin-bottom: 13.1mm;
+  padding-left: 25mm;
+  padding-right: 100%;
+  left: 0px;
+}
+
+/* toc styling */
+section.toc p {
+  max-width: 70%;
+  font-size: 24pt;
+}
+
+section.toc ol {
+  font-size: 24pt;
+  font-variant-numeric: tabular-nums;
+  max-width: 70%;
+}
+
+section.toc ul {
+  max-width: 70%;
+  font-size: 18pt;
+}
+
+section.toc img {
+  position: fixed;
+  display: block;
+  float: right;
+  right: 0;
+  margin-right: 40px;
+  top: 22%;
+  max-width: 25%;
+  max-height: 450px;
+  width: auto;
+}
+
+/* text-image styles */
+section.t75-i25, section.t50-i50, section.t25-i75 {
+  display: grid;
+  grid-template: "header" 15%
+                 "body" 85%;
+}
+
+/* t75-i25 styling */
+section.t75-i25 p {
+  width: 70%;
+}
+
+section.t75-i25 p > img {
+  background-color: #e7e9f2;
+  position: fixed;
+  right: 0px;
+  margin-right: 40px;
+  max-height: 450px;
+  max-width: 25%;
+  width: auto;
+}
+
+/* t50-i50 styling */
+section.t50-i50 p {
+  width: 45%;
+}
+
+section.t50-i50 p > img {
+  background-color: #e7e9f2;
+  position: fixed;
+  right: 0px;
+  margin-right: 40px;
+  max-height: 450px;
+  max-width: 50%;
+  width: auto;
+}
+
+/* t25-i75 styling */
+section.t25-i75 p {
+  width: 20%;
+}
+
+section.t25-i75 p > img {
+  background-color: #e7e9f2;
+  position: fixed;
+  right: 0px;
+  margin-right: 40px;
+  max-height: 450px;
+  max-width: 75%;
+  width: auto;
+}

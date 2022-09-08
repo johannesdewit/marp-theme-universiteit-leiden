@@ -1,12 +1,31 @@
 /* @theme universiteit_leiden_16:9 */
-/* based on the .potx hosted here: https://huisstijl.leidenuniv.nl/nl/digitale-uitingen/powerpoint/ */
+/* based on the .potx hosted here: https://huisstijl.leidenuniv.nl/en/digital-communications/powerpoint/ */
+
+:root {
+  /* Colors used in the presentation */
+  --main-color: #001158;
+  --accent-color: #8592BC;
+  --light-accent-color: #E7E9f2;
+  --title-slide-text-color: #fff;
+  --background-color: #fff;
+  --footer-text-color: #fff;
+  /* House style colors for reference */
+  --primary-color: #001158;
+  --social-behavioral-sciences-color: #be1908;
+  --science-color: #f46e32;
+  --humanities-color: #aaad00;
+  --archeology-color: #2c712d;
+  --governance-global-affairs-color: #34a3a9;
+  --medicine-color: #5cb1eb;
+  --law-color: #b02079;
+}
 
 section {
   font-family: minion-pro, Georgia, serif;
   font-style: normal;
   font-weight: 400;
-  color: #0C2577;
-  background-color: #fff;
+  color: var(--main-color);
+  background-color: var(--background-color);
   width: 1280px;
   height: 720px;
   font-size: 18pt;
@@ -18,8 +37,8 @@ section {
 
 footer {
   position: absolute;
-  background-color: #0C2577;
-  color: #fff;
+  background-color: var(--main-color);
+  color: var(--footer-text-color);
   font-size: 15pt;
   height: 13.1mm;
   line-height: 13.1mm;
@@ -33,7 +52,7 @@ footer {
 /* Styling page number */
 section::after {
   font-size: 15pt;
-  color: #fff;
+  color: var(--footer-text-color);
   height: 13.1mm;
   width: 13.1mm;
   text-align: center;
@@ -44,7 +63,7 @@ section::after {
   
 h1 {
   font-size: 54pt;
-  color: #0C2577;
+  color: var(--main-color);
   padding-top: 40px;
 } 
 
@@ -68,15 +87,15 @@ img {
 
 /* title-slide styling */
 section.title-slide {
-  background-color: #0C2577;
-  color: white;
+  background-color: var(--main-color);
+  color: var(--title-slide-text-color);
   padding: 0px;
   display: block;
   grid-template: initial;
 }
 
 section.title-slide h1 {
-  color: white;
+  color: var(--title-slide-text-color);
   font-size: 54pt;
   padding-left: 54.5mm;
   width: 100%;
@@ -85,7 +104,7 @@ section.title-slide h1 {
 
 section.title-slide p {
   font-size: 24pt;
-  background-color: #8592BC;
+  background-color: var(--accent-color);
   position: absolute;
   line-height: 24mm;
   width: 100%;
@@ -95,7 +114,7 @@ section.title-slide p {
 }
 
 section.title-slide img {
-  background-color: #fff;
+  background-color: var(--background-color);
   position: absolute;
   max-height: initial;
   max-width: initial;
@@ -155,7 +174,7 @@ section.t75-i25 p {
 }
 
 section.t75-i25 p > img {
-  background-color: #e7e9f2;
+  background-color: var(--light-accent-color);
   position: fixed;
   right: 0px;
   margin-right: 40px;
@@ -170,7 +189,7 @@ section.t50-i50 p {
 }
 
 section.t50-i50 p > img {
-  background-color: #e7e9f2;
+  background-color: var(--light-accent-color);
   position: fixed;
   right: 0px;
   margin-right: 40px;
@@ -185,7 +204,7 @@ section.t25-i75 p {
 }
 
 section.t25-i75 p > img {
-  background-color: #e7e9f2;
+  background-color: var(--light-accent-color);
   position: fixed;
   right: 0px;
   margin-right: 40px;

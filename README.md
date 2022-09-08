@@ -1,6 +1,9 @@
 # Universiteit Leiden theme for [Marp](https://github.com/marp-team/marp)
 Unofficial Leiden University theme for making presentations with [Marp](https://github.com/marp-team/marp) || Officieus Universiteit Leiden thema om presentaties te maken met [Marp](https://github.com/marp-team/marp)
 
+![title-slide](/media/title-slide.png)
+![slide](/media/slide.png)
+
 ## Installing and using the theme
 1. Copy the content of the folder `css/` to your preferred themes folder for Marp.
 2. Make sure Marp can find the theme files. If using [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) make sure to [modify the settings so Marp knows where to find your theme](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode#use-custom-theme-css).

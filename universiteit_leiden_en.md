@@ -35,7 +35,7 @@ Occaecat deserunt fugiat laboris occaecat enim ex consectetur exercitation do ip
 ## Text dominant with image 75%/25%
 Cupidatat incididunt aliqua Lorem laboris ex laboris esse aute ut dolore laborum. Reprehenderit excepteur dolor duis dolor. Adipisicing ea cillum elit commodo adipisicing non quis labore sunt nulla reprehenderit elit. Cupidatat velit commodo consequat aute nisi laboris aliqua est culpa aute consequat commodo. Laboris in eiusmod laboris occaecat ex pariatur nisi est irure commodo anim. Occaecat occaecat sint ipsum Lorem pariatur velit nostrud ullamco aliqua duis pariatur adipisicing excepteur.
 
-![example](https://fakeimg.pl/300x600/e7e9f2/?text=image&font=bebas)
+![example](https://fakeimg.pl/300x450/e7e9f2/?text=image&font=bebas)
 
 ---
 ## Text and image; 50%/50%

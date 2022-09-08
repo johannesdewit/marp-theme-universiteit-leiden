@@ -17,8 +17,9 @@ N.B. You can also use the included markdown files to preview the functions that 
 Another way to use the latest version of the themes is by specifying these paths in your [Marp settings in VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode#use-custom-theme-css):
 
 `https://raw.githubusercontent.com/johannesdewit/marp-theme-universiteit-leiden/main/css/universiteit_leiden_16:9.css`
+
 `https://raw.githubusercontent.com/johannesdewit/marp-theme-universiteit-leiden/main/css/universiteit_leiden_4:3.css`
-`
+
 
 __Attention:__ Because the 4:3 theme relies on an import of the 16:9 theme, both need to be added to the theme paths!
 

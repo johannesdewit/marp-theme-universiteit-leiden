@@ -1,6 +1,8 @@
 # Universiteit Leiden theme for [Marp](https://github.com/marp-team/marp)
 Unofficial Leiden University theme for making presentations with [Marp](https://github.com/marp-team/marp) || Officieus Universiteit Leiden thema om presentaties te maken met [Marp](https://github.com/marp-team/marp)
 
+Based on the instructions and presentation templates hosted on the [Leiden University house style page](https://huisstijl.leidenuniv.nl/en/).
+
 ![title-slide](/media/title-slide.png)
 ![slide](/media/slide.png)
 
